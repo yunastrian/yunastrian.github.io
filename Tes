@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome</title>
+		<meta name="viewport" content="width=device-width, initial-scale =1">
+		<link rel="icon" href="logo.jpg" type="image">
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Baloo+Bhaina' rel='stylesheet' type='text/css'> 
+		<script src="main.js"></script>
+	</head>
+	
+	<body>
+			<div class="judul">
+				<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+				<h1 align="center">SELAMAT DATANG</h1>
+			</div>
+		<div class="utama" id="1" style="display:none">	
+			<!-- List -->
+			<div class="mainkan">
+			<div class="poto">
+				<img src="IMG_fixxx.png"height="457.27" width="325,45" />
+			</div>
+			<div class="kiri">
+				<div class="list">         
+					<ul>
+						<li>Nama</li>
+						<li>NIM</li>	
+						<li>Fakultas</li>
+						<li>Email</li> 
+						<li>Social Media</li> 
+						<br/>
+						<li>Asal Daerah</li> 
+						<li>Kemampuan</li> 
+						<li>Karya</li> 
+					</ul>
+				
+					<p align="justify">Saya mendaftar di ARC karena saya ingin meningkatkan kemampuan dan wawasan terhadap IT</p>
+				</div>
+				<div class="isi">
+					: Kurniandha Sukma Yunastrian<br/>
+					: 16516032<br/>
+					: Sekolah Teknik Elektro dan Informatika<br/>
+					: ykurniandha@yahoo.com<br/>
+					: <br/>
+					<br/>
+					: Kediri<br/>
+					: Lumayan dalam olahraga catur, sedang belajar mendalami HTML<br/>
+					: Blogspot (<a href="http://kurniandha.blogspot.com" id="navbtn">Kurniandha</a>)<br/>
+				</div>
+				<div class="isi2">
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					Line<br/>
+					Whatsapp
+				</div>
+				<div class="isi3">
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					: yunastrian<br/>
+					: 085790442100
+				</div>
+				</div>
+			</div>
+			<div class="kanan">
+				<div id="siji">
+				B<br/>O<br/>A<br/>A<br/>U
+				</div>
+				<div id="loro">
+				I<br/>D<br/>T<br/>K<br/>
+				</div>
+			</div>
+			<div class="bawah">
+				<div id="pembuat">
+					-Kurniandha Sukma Yunastrian-
+				</div>
+				<div id="yoi">
+					#Yoiii
+				</div>
+			</div>
+		</div>
+		<div class="pagination" id="2"> 
+            <a class="mainin" href="#" onclick="button(event,1)">LANJUT</a>
+			<div id="lokasi">
+			Simpang Lima Gumul<br/>
+			Kediri, Jawa Timur<br/>
+			Indonesia
+			</div>			
+        </div>
+	</body>
+
+</html>
