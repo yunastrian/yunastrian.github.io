@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: white;
+	background-image: url("back3.jpg");
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: 'Baloo Bhaina', cursive;
+	
+}
+
+.judul{
+	font-family: 'Lobster', cursive;
+	color: #FFFF00;
+	margin-top: -29px;
+	font-size: 30px;
+}
+
+
+.pagination{
+    text-align: center;
+    font-size: 20px;
+	margin-top: 80px;
+	position: center;
+}
+
+.mainin{
+    padding: 5px;
+    background-color: #FF4500;
+    color: white;
+    text-decoration: none;
+}
+
+#lokasi{
+	color: white;
+	float:left;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 10px;	
+}
+
+.poto{
+	margin-top: -3px;
+    margin-right: 0px;
+	margin-left: 899px;
+    float: right;
+    height: 60px;
+	position: absolute;
+}
+
+.list{
+	margin-top: 0px;
+	margin-left: 50px;
+	float: left;
+}
+
+.isi{
+	margin-top: 19.7px;
+	margin-left: -694px;
+	float: left;
+}
+
+.isi2{
+	margin-top: 19.7px;
+	margin-left: -684px;
+	float: left;
+}
+
+.isi3{
+	margin-top: 19.7px;
+	margin-left: -580px;
+	float: left;
+}
+
+.kiri{
+	width: 90.5%;
+	margin-top: 80px;
+    min-height: 450px;
+    background-color: #90EE90;
+	font-size: 20px;
+    font-weight: 400;
+}
+
+.kanan{
+	width: 9.5%;
+	margin-top: -450px;
+    min-height: 450px;
+    background-color: #008B8B;
+	float: right;
+	font-size: 30px;
+    font-weight: 400;
+}
+
+#siji{
+	float : left;
+	margin-left: 40px;
+	margin-top: 75px;
+}
+
+#loro{
+	float : right;
+	margin-right: 40px;
+	margin-top: 105px;
+}
+
+.bawah{
+	width: 100%;
+	margin-bottom: -10px;
+    min-height: 40px;
+    background-color: #8B0000;
+	font-size: 20px;
+	color: white;
+    font-weight: 400;
+}
+
+#pembuat{
+    margin-left: -880px;
+	margin-top: 2px;
+    float: left;
+}
+
+#yoi{
+    margin-left: 360px;
+	margin-top: 2px;
+    float: left;
+}
