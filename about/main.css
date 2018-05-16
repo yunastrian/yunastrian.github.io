@@ -82,6 +82,10 @@ body{
     font-weight: 400;
 }
 
+.kalimat {
+	margin-left:10px;
+}
+
 .kanan{
 	width: 9.5%;
 	margin-top: -450px;
@@ -115,13 +119,13 @@ body{
 }
 
 #pembuat{
-    margin-left: -880px;
+    margin-left: 10px;
 	margin-top: 2px;
     float: left;
 }
 
 #yoi{
-    margin-left: 360px;
+    margin-right: 10px;
 	margin-top: 2px;
-    float: left;
+    float: right;
 }
