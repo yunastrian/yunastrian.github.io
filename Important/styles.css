@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: Tomato;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.container {
+  display: block;
+  width: 500px;
+  margin: 100px auto;
+}
