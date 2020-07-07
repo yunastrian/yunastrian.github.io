@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menuju Seminar Hasil Fitria</title>
+    
+    <script src="index.js"></script>
+    <link href="style.css" media="all" rel="stylesheet" />
+	<link href="layout.css" rel="stylesheet" />
+</head>
+<body>
+    <br/><br/><center><h1>Menuju Seminar Hasil</h1></center> <br/>
+	<center><h2>Jumat, 10 Juli 2020 | 09.00 - 10.30</h2></center> 
+	<center><h2>Fitria Mukti Hutami</h2></center> <br/>
+	
+    <div class="container"></div>
+	<br/><center><h2>Semangatty...</h2></center> <br/>
+    
+	<script>
+        var cd = new Countdown({
+            cont: document.querySelector('.container'),
+			date: {
+			year: 2020,
+			month: 7,
+			day: 10,
+			hour: 9,
+			minute: 0,
+			second: 0
+			},
+            outputTranslation: {
+                day: 'Days',
+                hour: 'Hours',
+                minute: 'Minutes',
+                second: 'Seconds',
+            },
+            endCallback: null,
+            outputFormat: 'day|hour|minute|second',
+        });
+        cd.start();
+    </script>
+</body>
+</html>
