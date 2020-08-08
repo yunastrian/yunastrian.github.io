@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Covid-19</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Infografis Penanganan Covid-19 di Indonesia</h1>
+            <p>per 7 Agustus 2020</p>
+        </div>
+    </header>
+    <main>
+        <div class="component" id="content">
+            <article>
+                <p>
+                    Saat ini, dunia sedang mengalami pandemi COVID-19. 
+                    Virus ini pertama kali dilaporkan di Cina pada tanggal 30 Desember 2019.
+                    Di Indonesia, virus ini pertama kali dilaporkan pada Senin, 2 Maret 2020. <br>
+                </p>
+                <p>Per <strong>Jumat, 7 Agustus 2020</strong>, di Indonesia terdapat <strong>121226 kasus.</strong></p>
+            </article>
+            <br>
+            <div>
+                <b>Filter Tabel:</b>
+                <input type="checkbox" name="sembuh" value="sembuh" onchange='onchangeSembuh(this);' checked>
+                <label for="sembuh">Sembuh</label>
+                <input type="checkbox" name="meninggal" value="meninggal" onchange='onchangeMeninggal(this);' checked>
+                <label for="meninggal">Meninggal</label>
+            </div>
+            <table id="infografis">
+                <tr>
+                    <th>No</th>
+                    <th>Provinsi</th>
+                    <th>Jumlah Kasus</th>
+                    <th class="sembuh">Sembuh</th>
+                    <th class="meninggal">Meninggal</th>
+                </tr>
+            </table>
+        </div>
+        <aside class="component" id="biodata">
+            <h3>BIODATA</h3>
+            <img src="aset/foto.jpg" alt="Foto Profil" width="75%">
+            <h4>Kurniandha Sukma Yunastrian
+            ykurniandha@gmail.com</h4>
+        </aside>
+    </main>
+    <footer>
+        &copy; 2020 Kurniandha Sukma Yunastrian
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
